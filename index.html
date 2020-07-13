@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eriksminde efterskole</title>
+    <meta name="description" content="Thise yoghurt produkter">
+    <meta name="keywords" content="produkter, yoghurt, Thise,">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+
+<div id="mainwrap">
+
+              <audio  id="projectorsound">
+                <source src="sounds\theprojector.mp3" type="audio/mpeg">
+              </audio>
+              <audio  id="tvsound">
+                <source src="sounds\thetv.mp3" type="audio/mpeg">
+              </audio>
+
+
+        <div id=videowrap>
+
+                <div id="tvoverlay">
+                        </div>
+                
+                        <div id="switchoverlay">
+                                <img src="images\gifanimations\tvgif.gif" id="resetTVON"> 
+                        </div>
+                <!-- video overlays -->
+
+                <div id="startknap" onclick="startfunk()"><p>Tryk</p></div>
+
+                <div id="menuwrap">
+                <div id="firstOption" onclick="firstfunk()">
+                    <p>1906. First animation</p>
+                </div>
+                <div id="secondOption" onclick="secondfunk()">
+                    <p>1928. First synchronized sound animation</p>
+                </div>
+                <div id="thirdOption" onclick="thirdfunk()">
+                        <p>1932. First color film</p>
+                </div>
+                <div id="fourthOption" onclick="fourthfunk()">
+                        <p>1961. First xerography film</p>
+                </div>
+                <div id="fiftOption" onclick="fiftfunk()">
+                        <p>1985. First claymation film</p>
+                </div>
+                <div id="sixtOption" onclick="sixtfunk()">
+                        <p>1995. First entirely 3D animated film</p>
+                </div>
+
+            </div>
+            <video id="vidO1" loop>
+                        <source src="video\videooverlays\overlay1st.mp4" type="video/mp4">
+            </video>
+
+                <video id="vidO2" loop>
+                                <source src="video\videooverlays\overlay2nd3rd.mp4" type="video/mp4">
+                        </video>
+
+                        <video id="vidO3" loop>
+                                        <source src="video\videooverlays\overlay4th.mp4" type="video/mp4">
+                                </video>
+
+
+
+
+
+            <video id="vid" loop>
+            </video>
+
+</div>
+</div>
+
+</body>
+<script src="js/mainscript.js"></script>
+</html>
