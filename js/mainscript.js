@@ -29,7 +29,7 @@ var whatfontsize = 28;
 
 // video load test
 var req = new XMLHttpRequest();
-req.open('GET', '../video/clean1st_1.mp4', true);
+req.open('GET', '../video/clean1st.mp4', true);
 req.responseType = 'blob';
 
 req.onload = function() {
